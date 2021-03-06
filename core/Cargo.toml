@@ -10,7 +10,7 @@ edition = "2018"
 
 [dependencies]
 primitive-types = { version = "0.9", git = "https://github.com/webb-tools/parity-common", default-features = false }
-codec = { package = "parity-scale-codec", version = "2.0.1", default-features = false, features = ["derive", "full"], optional = true }
+codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = ["derive", "full"], optional = true }
 serde = { version = "1.0", default-features = false, features = ["derive"], optional = true }
 # Work-around for https://github.com/myrrlyn/funty/issues/3
 funty = "=1.1"
